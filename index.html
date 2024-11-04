@@ -16,9 +16,12 @@
     <!-- Sekcja Koncepty -->
     <section id="koncepty">
         <h2>Koncepty</h2>
-        <div class="carousel">
+        <div class="carousel-container">
             <button class="prev" onclick="showPrev('koncepty')">←</button>
-            <img src="images/koncept1.jpg" class="carousel-item" id="koncepty-img">
+            <div class="image-frame">
+                <img src="images/virus_concept_1.png" class="carousel-item" id="koncepty-img">
+                <span class="image-description" id="koncepty-description"></span>
+            </div>
             <button class="next" onclick="showNext('koncepty')">→</button>
         </div>
     </section>
@@ -26,9 +29,12 @@
     <!-- Sekcja Rysunki -->
     <section id="rysunki">
         <h2>Rysunki</h2>
-        <div class="carousel">
+        <div class="carousel-container">
             <button class="prev" onclick="showPrev('rysunki')">←</button>
-            <img src="images/rysunek1.jpg" class="carousel-item" id="rysunki-img">
+            <div class="image-frame">
+                <img src="images/scale_bg_1.png" class="carousel-item" id="rysunki-img">
+                <span class="image-description" id="rysunki-description"></span>
+            </div>
             <button class="next" onclick="showNext('rysunki')">→</button>
         </div>
     </section>
@@ -36,13 +42,16 @@
     <!-- Sekcja Gify -->
     <section id="gify">
         <h2>Gify</h2>
-        <div class="carousel">
+        <div class="carousel-container">
             <button class="prev" onclick="showPrev('gify')">←</button>
-            <img src="images/gif1.gif" class="carousel-item" id="gify-img">
+            <div class="image-frame">
+                <img src="images/scale_moveset.gif" class="carousel-item" id="gify-img">
+                <span class="image-description" id="gify-description"></span>
+            </div>
             <button class="next" onclick="showNext('gify')">→</button>
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="./scripts.js"></script>
 </body>
 </html>

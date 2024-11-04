@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 30px auto;
+    max-width: 700px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Ustawienie ramki o stałym rozmiarze dla obrazka */
+.image-frame {
+    width: 600px;
+    height: 400px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    position: relative; /* konieczne dla pozycjonowania opisu */
+}
+
+/* Ukrycie opisu początkowo */
+.image-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* półprzezroczyste tło */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* płynne pojawianie się */
+}
+
+/* Wyświetlenie opisu po najechaniu kursorem na ramkę */
+.image-frame:hover .image-description {
+    opacity: 1;
+}
+
+/* Obrazy w ramce są skalowane proporcjonalnie do rozmiaru ramki */
+.carousel-item {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* zachowuje proporcje obrazka */
+}
+
+/* Styl dla przycisków strzałek */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* ustawienie pozycji przycisków */
+}
+
+button.prev {
+    margin-right: 10px;
+}
+
+button.next {
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
