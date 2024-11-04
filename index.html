@@ -1,7 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <header>
+        <h1>Moje Portfolio</h1>
+        <p>Przedstawiam moje koncepty, rysunki i animacje GIF.</p>
+    </header>
+
+    <!-- Sekcja Koncepty -->
+    <section id="koncepty">
+        <h2>Koncepty</h2>
+        <div class="carousel">
+            <button class="prev" onclick="showPrev('koncepty')">←</button>
+            <img src="images/koncept1.jpg" class="carousel-item" id="koncepty-img">
+            <button class="next" onclick="showNext('koncepty')">→</button>
+        </div>
+    </section>
+
+    <!-- Sekcja Rysunki -->
+    <section id="rysunki">
+        <h2>Rysunki</h2>
+        <div class="carousel">
+            <button class="prev" onclick="showPrev('rysunki')">←</button>
+            <img src="images/rysunek1.jpg" class="carousel-item" id="rysunki-img">
+            <button class="next" onclick="showNext('rysunki')">→</button>
+        </div>
+    </section>
+
+    <!-- Sekcja Gify -->
+    <section id="gify">
+        <h2>Gify</h2>
+        <div class="carousel">
+            <button class="prev" onclick="showPrev('gify')">←</button>
+            <img src="images/gif1.gif" class="carousel-item" id="gify-img">
+            <button class="next" onclick="showNext('gify')">→</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
