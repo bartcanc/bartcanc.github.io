@@ -50,12 +50,17 @@ const images = {
         { src: 'images/virus_lung_boss_idle.gif', description: 'Virogue - Lungs Boss idle animation' }
     ],
     'concepts': [
+        { src: 'images/scale_concept.png', description: 'ScaleBoy design concepts' },
+
         { src: 'images/characters_concept.jpg', description: 'Concept art for two people with contrasting personalities: a pessimistic man and an optimistic and energetic girl' },
         { src: 'images/horror_2_concept.jpg', description: 'A rough concept for NPCs for a horror game no. 1' },
         { src: 'images/horror_concept.jpg', description: 'A rough concept for NPCs for a horror game no. 2' },
         { src: 'images/horror_npc_concept.jpg', description: 'A rough concept for NPCs for a horror game no. 3' },
         { src: 'images/monster_2_concept.jpg', description: 'A rough concept of a monster' },
+        { src: 'images/horror_enemies_concept.png', description: 'A more realized concept of the monsters for the horror game' },
         { src: 'images/monster_concept.jpg', description: 'A more realized concept of a monster' },
+        { src: 'images/scale_overworld_concept.png', description: 'A concept for a hub area and world gate in ScaleBoy' },
+        { src: 'images/scale_ui_concept.png', description: 'A more realized concept of the UI elements and battle mechanics in ScaleBoy' },
         { src: 'images/scaleboy_map_concept.jpg', description: 'A rough concept for a map in ScaleBoy' },
         { src: 'images/scaleboy_ui_concept.jpg', description: 'A rough concept for UI elements and mechanics in battle for ScaleBoy' },
         { src: 'images/virus_concept_1.png', description: 'A rough gameplay concept for Virogue' }
