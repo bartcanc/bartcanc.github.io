@@ -42,6 +42,9 @@ const images = {
         { src: 'images/scale_boss.gif', description: 'Corrupted forest boss attack animation' },
         { src: 'images/scale_moveset.gif', description: 'ScaleBoy moveset in battle' },
         { src: 'images/scale_note_effect_1.gif', description: 'A successful note hit effect' },
+        { src: 'images/virus_door.gif', description: 'Virogue - door opening animation' },
+        { src: 'images/virus_shooter.gif', description: 'Virogue - shooting enemy animation' },
+        { src: 'images/virus_synapse.gif', description: 'Virogue - synapse + lightning animation' },
         { src: 'images/virus_brain_boss_attack_1.gif', description: 'Virogue - Brain Boss charge attack animation' },
         { src: 'images/virus_brain_boss_attack_2.gif', description: 'Virogue - Brain Boss attack animation no. 2' },
         { src: 'images/virus_heart_boss_attack.gif', description: 'Virogue - Heart Boss aerial attack animation' },
@@ -51,7 +54,6 @@ const images = {
     ],
     'concepts': [
         { src: 'images/scale_concept.png', description: 'ScaleBoy design concepts' },
-
         { src: 'images/characters_concept.jpg', description: 'Concept art for two people with contrasting personalities: a pessimistic man and an optimistic and energetic girl' },
         { src: 'images/horror_2_concept.jpg', description: 'A rough concept for NPCs for a horror game no. 1' },
         { src: 'images/horror_concept.jpg', description: 'A rough concept for NPCs for a horror game no. 2' },
