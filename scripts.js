@@ -1,11 +1,12 @@
 // Obiekt kategorii obrazów z dynamicznymi opisami
 const images = {
     'sketches': [
+        { src: 'images/girl_4_sketch.jpg', description: 'Drawing of a girl using a reference' },
         { src: 'images/apocalypse_sketch.jpg', description: 'An apocalyptic sketch + extra' },
         { src: 'images/characters_2_sketch.jpg', description: 'Man drawn from reference + concepts for the nun and the girl in the bottom' },
         { src: 'images/girl_2_sketch.jpg', description: 'Drawing of a girl about to listen to music followed by her crying and lying on the floor' },
         { src: 'images/girl_3_sketch.jpg', description: 'Drawing of a girl with a bubbly personality' },
-        { src: 'images/girl_4_sketch.jpg', description: 'Drawing of a girl using a reference' },
+        
         { src: 'images/girl_5_sketch.jpg', description: 'Drawing of a girl listening to music' },
         { src: 'images/girl_6_sketch.jpg', description: 'Drawing of a girl (experimenting with colors)' },
         { src: 'images/girl_7_sketch.jpg', description: 'Drawing of a girl (experimenting with colors)' },
