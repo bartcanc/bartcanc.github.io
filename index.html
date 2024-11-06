@@ -9,48 +9,113 @@
 <body>
 
     <header>
-        <h1>Moje Portfolio</h1>
-        <p>Przedstawiam moje koncepty, rysunki i animacje GIF.</p>
+        <h1>Bartosz Rakowski - Portfolio</h1>
     </header>
 
-    <!-- Sekcja Koncepty -->
-    <section id="koncepty">
-        <h2>Koncepty</h2>
-        <div class="carousel-container">
-            <button class="prev" onclick="showPrev('koncepty')">←</button>
-            <div class="image-frame">
-                <img src="images/virus_concept_1.png" class="carousel-item" id="koncepty-img">
-                <span class="image-description" id="koncepty-description"></span>
-            </div>
-            <button class="next" onclick="showNext('koncepty')">→</button>
+    <!-- Sekcja About Me -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <div class="about-me-content">
+            <p>
+                My name is Bartosz Rakowski, and this is a collection of the works I am the most proud of. In my free time from university and my other responsibilities, I try to a bit of everything when it comes to creating art, but I mainly focus on casual sketching and pixel art (mainly for games).
+            </p>
+            <p>
+                If you would like to know more about my work, don't hesitate to contact me! I am open to collaboration and new challenges. My contact information is located at the bottom of the page.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sekcja Banery -->
+    <section id="banery">
+        <h2>Projects I have worked on</h2>
+        <div class="banner-container">
+            <a href="https://dr-whomstdve.itch.io/scaleboy" target="_blank" class="banner-link">
+                <img src="images/banner1.png" alt="Baner 1" class="banner-image">
+                <div class="banner-description">ScaleBoy: I was responsible for most of the art and music</div>
+            </a>
+            <a href="https://dr-whomstdve.itch.io/2-scale-2-boy" target="_blank" class="banner-link">
+                <img src="images/banner2.png" alt="Baner 2" class="banner-image">
+                <div class="banner-description">2 Scale 2 Boy: I was responsible for most of the art</div>
+            </a>
+            <a href="https://dr-whomstdve.itch.io/virougue" target="_blank" class="banner-link">
+                <img src="images/banner3.png" alt="Baner 3" class="banner-image">
+                <div class="banner-description">Virogue: I was responsible for most of the art and music</div>
+            </a>
         </div>
     </section>
 
     <!-- Sekcja Rysunki -->
     <section id="rysunki">
-        <h2>Rysunki</h2>
+        <h2>Sketches and drawings</h2>
         <div class="carousel-container">
-            <button class="prev" onclick="showPrev('rysunki')">←</button>
+            <button class="prev" onclick="showPrev('sketches')">←</button>
             <div class="image-frame">
-                <img src="images/scale_bg_1.png" class="carousel-item" id="rysunki-img">
-                <span class="image-description" id="rysunki-description"></span>
+                <img src="" class="carousel-item" id="sketches-img">
+                <span class="image-description" id="sketches-description"></span>
             </div>
-            <button class="next" onclick="showNext('rysunki')">→</button>
+            <button class="next" onclick="showNext('sketches')">→</button>
+        </div>
+    </section>
+
+    <!-- Sekcja Komiksy -->
+    <section id="komiksy">
+        <h2>Comics</h2>
+        <div class="carousel-container">
+            <button class="prev" onclick="showPrev('comics')">←</button>
+            <div class="image-frame">
+                <img src="" class="carousel-item" id="comics-img">
+                <span class="image-description" id="comics-description"></span>
+            </div>
+            <button class="next" onclick="showNext('comics')">→</button>
+        </div>
+    </section>
+
+    <!-- Sekcja Pixel Art -->
+    <section id="pixel-art">
+        <h2>Pixel Art</h2>
+        <div class="carousel-container">
+            <button class="prev" onclick="showPrev('pixel')">←</button>
+            <div class="image-frame">
+                <img src="" class="carousel-item" id="pixel-img">
+                <span class="image-description" id="pixel-description"></span>
+            </div>
+            <button class="next" onclick="showNext('pixel')">→</button>
         </div>
     </section>
 
     <!-- Sekcja Gify -->
     <section id="gify">
-        <h2>Gify</h2>
+        <h2>Animations</h2>
         <div class="carousel-container">
-            <button class="prev" onclick="showPrev('gify')">←</button>
+            <button class="prev" onclick="showPrev('gifs')">←</button>
             <div class="image-frame">
-                <img src="images/scale_moveset.gif" class="carousel-item" id="gify-img">
-                <span class="image-description" id="gify-description"></span>
+                <img src="" class="carousel-item" id="gifs-img">
+                <span class="image-description" id="gifs-description"></span>
             </div>
-            <button class="next" onclick="showNext('gify')">→</button>
+            <button class="next" onclick="showNext('gifs')">→</button>
         </div>
     </section>
+
+    <!-- Sekcja Koncepty -->
+    <section id="koncepty">
+        <h2>Concepts</h2>
+        <div class="carousel-container">
+            <button class="prev" onclick="showPrev('concepts')">←</button>
+            <div class="image-frame">
+                <img src="" class="carousel-item" id="concepts-img">
+                <span class="image-description" id="concepts-description"></span>
+            </div>
+            <button class="next" onclick="showNext('concepts')">→</button>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Contact: <a href="mailto:bartekr2002@gmail.com">bartekr2002@gmail.com</a></p>
+            <p>Phone number: +48 503 930 313</p>
+        </div>
+    </footer>
 
     <script src="./scripts.js"></script>
 </body>
